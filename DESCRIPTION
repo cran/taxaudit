@@ -1,0 +1,27 @@
+Package: taxaudit
+Type: Package
+Title: Taxonomic Audit, Character Ontology, and Pairwise Diagnosability
+Version: 0.1.0
+Authors@R: person(given = "Aamna",
+                family = "Naveed",
+                role = c("aut", "cre"),
+                email = "naamna588@gmail.com")
+Description: Automates the extraction of morphological traits and taxonomic 
+    literature auditing from unstructured botanical treatments. Implements 
+    controlled ontology mapping, regular expression-based quantitative dimension 
+    parsing, benchmark corpus management, and comparative baseline evaluation 
+    protocols for biodiversity informatics.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: furrr, future, ggplot2, httr2, rvest, utils, xml2
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Depends: R (>= 4.1.0)
+Config/roxygen2/version: 8.1.1
+NeedsCompilation: no
+Packaged: 2026-11-03 15:23:07 UTC; Laptop Land
+Author: Aamna Naveed [aut, cre]
+Maintainer: Aamna Naveed <naamna588@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-11-25 20:20:02 UTC
